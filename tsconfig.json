@@ -18,10 +18,10 @@
         "name": "next"
       }
     ],
-    "baseUrl": ".",
     "paths": {
       "@/*": ["./*"]
-    }
+    },
+    "allowArbitraryExtensions": true
   },
   "include": [
     "next-env.d.ts",
@@ -30,7 +30,8 @@
     ".next/types/**/*.ts",
     "app/lib/placeholder-data.ts",
     "scripts/seed.js",
-    ".next/dev/types/**/*.ts"
+    ".next/dev/types/**/*.ts",
+    "additional-modules.d.ts"
   ],
   "exclude": ["node_modules"]
 }
