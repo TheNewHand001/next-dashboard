@@ -1,7 +1,10 @@
+'use client';
+
 import {
   UserGroupIcon,
   HomeIcon,
   DocumentDuplicateIcon,
+  CubeTransparentIcon,
 } from '@heroicons/react/24/outline';
 import clsx from 'clsx';
 import Link from 'next/link';
@@ -17,6 +20,7 @@ const links = [
     icon: DocumentDuplicateIcon,
   },
   { name: 'Customers', href: '/dashboard/customers', icon: UserGroupIcon },
+  { name: '3D', href: '/dashboard/3d', icon: CubeTransparentIcon },
 ];
 
 export default function NavLinks() {
